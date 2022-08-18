@@ -1,0 +1,25 @@
+{
+    "name": "artem/gis.loc",
+    "description": "GIS Art PHP test assignment",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "seed": [
+            "App\\DB::seedDB"
+        ],
+        "test": [
+          "App\\Tests\\TestTrips::testTripsDuration"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Baranovskyi"
+        }
+    ],
+    "require": {}
+}
